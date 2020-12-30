@@ -1,0 +1,66 @@
+#{
+margin:0;
+padding: 0;
+font-family: bold;
+}
+
+header{
+       width:100%;
+       background-image: url('266810541.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+}
+
+ul{
+ float: right;
+ list-style-type: none;
+
+}
+
+ul li{
+  display: inline-block;
+
+  
+}
+ul li a{
+  text-decoration: none;
+  color: cyan;
+  padding: 5px 10px;
+  border: 1px solid cyan;
+  transition: 0.6s ease;
+}
+      ul li a:hover{
+        background-color: cyan;
+        color: grey;
+      }
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main{
+  max-width: 1300px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+.button{
+position: absolute;
+top: 60%;
+left: 40%;
+  text-decoration: none;
+  padding: 15px 10px;
+  border: 0px solid cyan;
+}
+.button:hover{
+  background-color: cyan;
+}
